@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热门影片片库-高清电影大全-热门影片在线点播</title>
+    <meta name="description" content="整理热门影片片库内容，覆盖电影、剧集与地区分类，方便按热度快速浏览。">
+    <meta name="keywords" content="热门影片片库,高清电影大全,热门影片,在线点播,电影片库,精选内容">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-wrap">
+            <a class="brand" href="./index.html" aria-label="热门影片片库">
+                <span class="brand-mark">▶</span>
+                <span class="brand-text">热门影片片库</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="./index.html" class="active">首页</a>
+                <a href="./categories.html">分类</a>
+                <a href="./ranking.html">排行榜</a>
+                <a href="./search.html">搜索</a>
+                    <a href="./category-featured-cinema.html">精选影院</a>
+                    <a href="./category-hot-movies.html">高清电影</a>
+                    <a href="./category-drama-library.html">剧情片库</a>
+                    <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                    <a href="./category-action-adventure.html">动作冒险</a>
+                    <a href="./category-comedy-life.html">喜剧生活</a>
+            </nav>
+            <form class="nav-search search-form" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="menu-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-panel" hidden>
+            <form class="mobile-search search-form" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./ranking.html">排行榜</a>
+            <a href="./search.html">搜索</a>
+            <a href="./category-featured-cinema.html">精选影院</a><a href="./category-hot-movies.html">高清电影</a><a href="./category-drama-library.html">剧情片库</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-comedy-life.html">喜剧生活</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero" data-hero>
+        <article class="hero-slide is-active">
+            <img src="./1.jpg" alt="黑猫1972" class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-kicker">精选推荐</div>
+                <h1>黑猫1972</h1>
+                <p>一个冷酷的酒店老板被邻居的黑猫反复骚扰，当他杀死猫后，黑猫的诅咒让他变成了半人半猫的怪物。</p>
+                <div class="hero-meta">
+                    <span>电影</span>
+                    <span>意大利</span>
+                    <span>1972</span>
+                </div>
+                <div class="hero-actions">
+                    <a class="primary-button" href="./movie-1.html">立即观看</a>
+                    <a class="ghost-button" href="./category-comedy-life.html">进入片库</a>
+                </div>
+            </div>
+        </article><article class="hero-slide">
+            <img src="./2.jpg" alt="兰博基尼" class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-kicker">精选推荐</div>
+                <h1>兰博基尼</h1>
+                <p>费鲁吉欧·兰博基尼从拖拉机厂老板逆袭为超级跑车之王，他与法拉利创始人恩佐的恩怨浮出水面。</p>
+                <div class="hero-meta">
+                    <span>电影</span>
+                    <span>意大利 / 美国</span>
+                    <span>2025</span>
+                </div>
+                <div class="hero-actions">
+                    <a class="primary-button" href="./movie-2.html">立即观看</a>
+                    <a class="ghost-button" href="./category-featured-cinema.html">进入片库</a>
+                </div>
+            </div>
+        </article><article class="hero-slide">
+            <img src="./3.jpg" alt="本末测评" class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-kicker">精选推荐</div>
+                <h1>本末测评</h1>
+                <p>一个试图测评万物本质的节目，最终却亲手模糊了真与假的边界。</p>
+                <div class="hero-meta">
+                    <span>综艺</span>
+                    <span>中国大陆</span>
+                    <span>2023</span>
+                </div>
+                <div class="hero-actions">
+                    <a class="primary-button" href="./movie-3.html">立即观看</a>
+                    <a class="ghost-button" href="./category-romance-art.html">进入片库</a>
+                </div>
+            </div>
+        </article><article class="hero-slide">
+            <img src="./4.jpg" alt="致命摇篮" class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-kicker">精选推荐</div>
+                <h1>致命摇篮</h1>
+                <p>特工苏为了保护一个装有最高机密芯片的婴儿，被黑白两道追杀24小时。</p>
+                <div class="hero-meta">
+                    <span>电影</span>
+                    <span>美国</span>
+                    <span>2003</span>
+                </div>
+                <div class="hero-actions">
+                    <a class="primary-button" href="./movie-4.html">立即观看</a>
+                    <a class="ghost-button" href="./category-suspense-thriller.html">进入片库</a>
+                </div>
+            </div>
+        </article><article class="hero-slide">
+            <img src="./5.jpg" alt="热舞" class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-kicker">精选推荐</div>
+                <h1>热舞</h1>
+                <p>富家女在夏日度假村爱上了粗鲁的舞蹈老师，一场舞蹈比赛能否跨越阶层的鸿沟？</p>
+                <div class="hero-meta">
+                    <span>电影</span>
+                    <span>美国</span>
+                    <span>1987</span>
+                </div>
+                <div class="hero-actions">
+                    <a class="primary-button" href="./movie-5.html">立即观看</a>
+                    <a class="ghost-button" href="./category-drama-library.html">进入片库</a>
+                </div>
+            </div>
+        </article><article class="hero-slide">
+            <img src="./6.jpg" alt="血蝶" class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-kicker">精选推荐</div>
+                <h1>血蝶</h1>
+                <p>蝴蝶标本收藏家接连惨死，女刑警追凶时发现自己体内竟寄宿着凶手的记忆。</p>
+                <div class="hero-meta">
+                    <span>电影</span>
+                    <span>中国香港</span>
+                    <span>2002</span>
+                </div>
+                <div class="hero-actions">
+                    <a class="primary-button" href="./movie-6.html">立即观看</a>
+                    <a class="ghost-button" href="./category-asian-choice.html">进入片库</a>
+                </div>
+            </div>
+        </article>
+            <button class="hero-arrow hero-prev" type="button" aria-label="上一部">‹</button>
+            <button class="hero-arrow hero-next" type="button" aria-label="下一部">›</button>
+            <div class="hero-dots">
+                <button type="button" class="is-active" aria-label="切换到 黑猫1972"></button><button type="button" class="" aria-label="切换到 兰博基尼"></button><button type="button" class="" aria-label="切换到 本末测评"></button><button type="button" class="" aria-label="切换到 致命摇篮"></button><button type="button" class="" aria-label="切换到 热舞"></button><button type="button" class="" aria-label="切换到 血蝶"></button>
+            </div>
+        </section>
+        <div class="page-shell home-shell">
+            <section class="section-card">
+        <div class="section-head">
+            <div>
+                <span class="section-icon">★</span>
+                <h2>今日精选</h2>
+            </div>
+            <a class="section-link" href="./categories.html">查看全部 →</a>
+        </div>
+        <div class="movie-grid four-col"><article class="movie-card" data-title="兰博基尼" data-region="意大利 / 美国" data-year="2025" data-tags="跑车 对决 热血 传记 运动">
+        <a class="poster-link" href="./movie-2.html" aria-label="兰博基尼">
+            <span class="poster-frame">
+                <img src="./2.jpg" alt="兰博基尼" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2025</span>
+            </span>
+            <span class="card-body">
+                <strong>兰博基尼</strong>
+                <em>费鲁吉欧·兰博基尼从拖拉机厂老板逆袭为超级跑车之王，他与法拉利创始人恩佐的恩怨浮出水面。</em>
+                <span class="card-meta">
+                    <span>传记</span>
+                    <span>意大利 / 美国</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="本末测评" data-region="中国大陆" data-year="2023" data-tags="网络综艺 犀利吐槽 社会实验 消费主义 黑色幽默 脱口秀 测评">
+        <a class="poster-link" href="./movie-3.html" aria-label="本末测评">
+            <span class="poster-frame">
+                <img src="./3.jpg" alt="本末测评" loading="lazy">
+                <span class="type-badge">综艺</span>
+                <span class="year-badge">2023</span>
+            </span>
+            <span class="card-body">
+                <strong>本末测评</strong>
+                <em>一个试图测评万物本质的节目，最终却亲手模糊了真与假的边界。</em>
+                <span class="card-meta">
+                    <span>脱口秀</span>
+                    <span>中国大陆</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="致命摇篮" data-region="美国" data-year="2003" data-tags="硬汉动作 婴儿保镖 黑市交易 李连杰 动作 惊悚">
+        <a class="poster-link" href="./movie-4.html" aria-label="致命摇篮">
+            <span class="poster-frame">
+                <img src="./4.jpg" alt="致命摇篮" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2003</span>
+            </span>
+            <span class="card-body">
+                <strong>致命摇篮</strong>
+                <em>特工苏为了保护一个装有最高机密芯片的婴儿，被黑白两道追杀24小时。</em>
+                <span class="card-meta">
+                    <span>动作</span>
+                    <span>美国</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="热舞" data-region="美国" data-year="1987" data-tags="帕特里克·斯威兹 珍妮弗·格雷 舞蹈 夏日恋情 经典 爱情 歌舞">
+        <a class="poster-link" href="./movie-5.html" aria-label="热舞">
+            <span class="poster-frame">
+                <img src="./5.jpg" alt="热舞" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">1987</span>
+            </span>
+            <span class="card-body">
+                <strong>热舞</strong>
+                <em>富家女在夏日度假村爱上了粗鲁的舞蹈老师，一场舞蹈比赛能否跨越阶层的鸿沟？</em>
+                <span class="card-meta">
+                    <span>爱情</span>
+                    <span>美国</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="血蝶" data-region="中国香港" data-year="2002" data-tags="连环杀人 记忆移植 蝴蝶标本 港产cult 惊悚 悬疑 犯罪">
+        <a class="poster-link" href="./movie-6.html" aria-label="血蝶">
+            <span class="poster-frame">
+                <img src="./6.jpg" alt="血蝶" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2002</span>
+            </span>
+            <span class="card-body">
+                <strong>血蝶</strong>
+                <em>蝴蝶标本收藏家接连惨死，女刑警追凶时发现自己体内竟寄宿着凶手的记忆。</em>
+                <span class="card-meta">
+                    <span>惊悚</span>
+                    <span>中国香港</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="梦幻狂杀" data-region="美国" data-year="1998" data-tags="迷幻 记忆碎片 黑色电影 梦境与现实 邪典 惊悚 心理 悬疑">
+        <a class="poster-link" href="./movie-7.html" aria-label="梦幻狂杀">
+            <span class="poster-frame">
+                <img src="./7.jpg" alt="梦幻狂杀" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">1998</span>
+            </span>
+            <span class="card-body">
+                <strong>梦幻狂杀</strong>
+                <em>一个昏迷的杀手在梦中杀死了一百个人，醒来后却发现那些尸体在现实中一一出现，且死法与梦一模一样。</em>
+                <span class="card-meta">
+                    <span>惊悚</span>
+                    <span>美国</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="财富流感" data-region="美国" data-year="2026" data-tags="末日恐慌 社会隐喻 悬疑解谜 科幻 惊悚">
+        <a class="poster-link" href="./movie-8.html" aria-label="财富流感">
+            <span class="poster-frame">
+                <img src="./8.jpg" alt="财富流感" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2026</span>
+            </span>
+            <span class="card-body">
+                <strong>财富流感</strong>
+                <em>一种通过金钱传播的致命病毒席卷全球，穷人与富人的身份在一夜间彻底逆转。</em>
+                <span class="card-meta">
+                    <span>科幻</span>
+                    <span>美国</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="非恋人絮语" data-region="法国 / 比利时" data-year="2019" data-tags="话痨电影 一夜情 情感哲理 黑白 爱情 喜剧">
+        <a class="poster-link" href="./movie-9.html" aria-label="非恋人絮语">
+            <span class="poster-frame">
+                <img src="./9.jpg" alt="非恋人絮语" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2019</span>
+            </span>
+            <span class="card-body">
+                <strong>非恋人絮语</strong>
+                <em>一夜情后，他们躺在床上聊了整整一天爱情，却忘了问对方叫什么。</em>
+                <span class="card-meta">
+                    <span>爱情</span>
+                    <span>法国 / 比利时</span>
+                </span>
+            </span>
+        </a>
+    </article></div>
+    </section>
+            <section class="section-card">
+        <div class="section-head">
+            <div>
+                <span class="section-icon">◆</span>
+                <h2>热门推荐</h2>
+            </div>
+            <a class="section-link" href="./ranking.html">查看全部 →</a>
+        </div>
+        <div class="movie-grid four-col"><article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 将计就计 20世纪少女 井冈山 尚红书院 恋语轻唱 征空伟史 洪福齐天粤语 完美释放2012 我的女儿卡琳卡 梨园春色 冬日2003 她真漂亮 隐形狂人 动漫影后 无聊诗社第二季 一骑定情缘 从容的快板 砂之器2019 吉尔吉斯少年行 索伊·拉达：鸿运当头" data-region="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断 根据片名判断">
+        <a class="poster-link" href="./movie-68.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 将计就计 20世纪少女 井冈山 尚红书院 恋语轻唱 征空伟史 洪福齐天粤语 完美释放2012 我的女儿卡琳卡 梨园春色 冬日2003 她真漂亮 隐形狂人 动漫影后 无聊诗社第二季 一骑定情缘 从容的快板 砂之器2019 吉尔吉斯少年行 索伊·拉达：鸿运当头">
+            <span class="poster-frame">
+                <img src="./68.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 将计就计 20世纪少女 井冈山 尚红书院 恋语轻唱 征空伟史 洪福齐天粤语 完美释放2012 我的女儿卡琳卡 梨园春色 冬日2003 她真漂亮 隐形狂人 动漫影后 无聊诗社第二季 一骑定情缘 从容的快板 砂之器2019 吉尔吉斯少年行 索伊·拉达：鸿运当头" loading="lazy">
+                <span class="type-badge">根据片名判断</span>
+                <span class="year-badge">根据片名判断</span>
+            </span>
+            <span class="card-body">
+                <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 将计就计 20世纪少女 井冈山 尚红书院 恋语轻唱 征空伟史 洪福齐天粤语 完美释放2012 我的女儿卡琳卡 梨园春色 冬日2003 她真漂亮 隐形狂人 动漫影后 无聊诗社第二季 一骑定情缘 从容的快板 砂之器2019 吉尔吉斯少年行 索伊·拉达：鸿运当头</strong>
+                <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+                <span class="card-meta">
+                    <span>根据片名判断</span>
+                    <span>根据片名判断</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 空洞之夜 我爱777 奇怪的克兰太太 恐龙饭店 狼灾记 后备计划 革命叛徒 情海波澜 水银灯下死 告别我的悠长过往 东京之女 小小羊儿要回家 史前战纪第二季 德古拉：永咒传奇 时髦境地 夺城 攀爬马特宏峰 妈，我没时间 妙探父子兵 芭比和神秘之门" data-region="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断 根据片名判断">
+        <a class="poster-link" href="./movie-171.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 空洞之夜 我爱777 奇怪的克兰太太 恐龙饭店 狼灾记 后备计划 革命叛徒 情海波澜 水银灯下死 告别我的悠长过往 东京之女 小小羊儿要回家 史前战纪第二季 德古拉：永咒传奇 时髦境地 夺城 攀爬马特宏峰 妈，我没时间 妙探父子兵 芭比和神秘之门">
+            <span class="poster-frame">
+                <img src="./21.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 空洞之夜 我爱777 奇怪的克兰太太 恐龙饭店 狼灾记 后备计划 革命叛徒 情海波澜 水银灯下死 告别我的悠长过往 东京之女 小小羊儿要回家 史前战纪第二季 德古拉：永咒传奇 时髦境地 夺城 攀爬马特宏峰 妈，我没时间 妙探父子兵 芭比和神秘之门" loading="lazy">
+                <span class="type-badge">根据片名判断</span>
+                <span class="year-badge">根据片名判断</span>
+            </span>
+            <span class="card-body">
+                <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 空洞之夜 我爱777 奇怪的克兰太太 恐龙饭店 狼灾记 后备计划 革命叛徒 情海波澜 水银灯下死 告别我的悠长过往 东京之女 小小羊儿要回家 史前战纪第二季 德古拉：永咒传奇 时髦境地 夺城 攀爬马特宏峰 妈，我没时间 妙探父子兵 芭比和神秘之门</strong>
+                <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+                <span class="card-meta">
+                    <span>根据片名判断</span>
+                    <span>根据片名判断</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 香港蛙人粤语 一个夏日的夜晚 邓稼先 小卖部后门 自卫的艺术 第一茶庄 三角窗外是黑夜 登场了丝绸之路 解忧公主 布里叶女士 高山上的世界杯 穿裘皮的维纳斯 五十公里桃花坞3 说唱听我的 偿命 情爱保险 丧子疑云 布袋和尚粤语 夺宝幸运星2 蓝色恐惧" data-region="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断 根据片名判断">
+        <a class="poster-link" href="./movie-272.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 香港蛙人粤语 一个夏日的夜晚 邓稼先 小卖部后门 自卫的艺术 第一茶庄 三角窗外是黑夜 登场了丝绸之路 解忧公主 布里叶女士 高山上的世界杯 穿裘皮的维纳斯 五十公里桃花坞3 说唱听我的 偿命 情爱保险 丧子疑云 布袋和尚粤语 夺宝幸运星2 蓝色恐惧">
+            <span class="poster-frame">
+                <img src="./122.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 香港蛙人粤语 一个夏日的夜晚 邓稼先 小卖部后门 自卫的艺术 第一茶庄 三角窗外是黑夜 登场了丝绸之路 解忧公主 布里叶女士 高山上的世界杯 穿裘皮的维纳斯 五十公里桃花坞3 说唱听我的 偿命 情爱保险 丧子疑云 布袋和尚粤语 夺宝幸运星2 蓝色恐惧" loading="lazy">
+                <span class="type-badge">根据片名判断</span>
+                <span class="year-badge">根据片名判断</span>
+            </span>
+            <span class="card-body">
+                <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 香港蛙人粤语 一个夏日的夜晚 邓稼先 小卖部后门 自卫的艺术 第一茶庄 三角窗外是黑夜 登场了丝绸之路 解忧公主 布里叶女士 高山上的世界杯 穿裘皮的维纳斯 五十公里桃花坞3 说唱听我的 偿命 情爱保险 丧子疑云 布袋和尚粤语 夺宝幸运星2 蓝色恐惧</strong>
+                <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+                <span class="card-meta">
+                    <span>根据片名判断</span>
+                    <span>根据片名判断</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 山河令 阿达玛 惊声尖叫3 双城悲歌 人间大炮2 我们的爱情不正常 欧若拉之晨 别放手 诅咒之刃 特工次世代 金霸王 午夜凶铃2 大虫灾 克伦西亚 玉米田的孩子：逃亡 未生 花木兰的秘密 法外情 我们的故事未完待续 你的好邻居蜘蛛侠第一季" data-region="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断 根据片名判断">
+        <a class="poster-link" href="./movie-445.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 山河令 阿达玛 惊声尖叫3 双城悲歌 人间大炮2 我们的爱情不正常 欧若拉之晨 别放手 诅咒之刃 特工次世代 金霸王 午夜凶铃2 大虫灾 克伦西亚 玉米田的孩子：逃亡 未生 花木兰的秘密 法外情 我们的故事未完待续 你的好邻居蜘蛛侠第一季">
+            <span class="poster-frame">
+                <img src="./145.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 山河令 阿达玛 惊声尖叫3 双城悲歌 人间大炮2 我们的爱情不正常 欧若拉之晨 别放手 诅咒之刃 特工次世代 金霸王 午夜凶铃2 大虫灾 克伦西亚 玉米田的孩子：逃亡 未生 花木兰的秘密 法外情 我们的故事未完待续 你的好邻居蜘蛛侠第一季" loading="lazy">
+                <span class="type-badge">根据片名判断</span>
+                <span class="year-badge">根据片名判断</span>
+            </span>
+            <span class="card-body">
+                <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 山河令 阿达玛 惊声尖叫3 双城悲歌 人间大炮2 我们的爱情不正常 欧若拉之晨 别放手 诅咒之刃 特工次世代 金霸王 午夜凶铃2 大虫灾 克伦西亚 玉米田的孩子：逃亡 未生 花木兰的秘密 法外情 我们的故事未完待续 你的好邻居蜘蛛侠第一季</strong>
+                <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+                <span class="card-meta">
+                    <span>根据片名判断</span>
+                    <span>根据片名判断</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 红色 感恩时节 圣物秘闻录 亲爱的篮球 性病态心理学 活出好命来 文君怨 时候到了 不要送花给我 超能敢死队 实习天使粤语 鲸之歌 声临其境 嘉宾纯享版 丧尸不要停 丧尸病狂 温暖的，甜蜜的 实现永恒幸福的七个阶段 猫忍 大杀手 少年鳄鱼队3" data-region="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断 根据片名判断">
+        <a class="poster-link" href="./movie-475.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 红色 感恩时节 圣物秘闻录 亲爱的篮球 性病态心理学 活出好命来 文君怨 时候到了 不要送花给我 超能敢死队 实习天使粤语 鲸之歌 声临其境 嘉宾纯享版 丧尸不要停 丧尸病狂 温暖的，甜蜜的 实现永恒幸福的七个阶段 猫忍 大杀手 少年鳄鱼队3">
+            <span class="poster-frame">
+                <img src="./25.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 红色 感恩时节 圣物秘闻录 亲爱的篮球 性病态心理学 活出好命来 文君怨 时候到了 不要送花给我 超能敢死队 实习天使粤语 鲸之歌 声临其境 嘉宾纯享版 丧尸不要停 丧尸病狂 温暖的，甜蜜的 实现永恒幸福的七个阶段 猫忍 大杀手 少年鳄鱼队3" loading="lazy">
+                <span class="type-badge">根据片名判断</span>
+                <span class="year-badge">根据片名判断</span>
+            </span>
+            <span class="card-body">
+                <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 红色 感恩时节 圣物秘闻录 亲爱的篮球 性病态心理学 活出好命来 文君怨 时候到了 不要送花给我 超能敢死队 实习天使粤语 鲸之歌 声临其境 嘉宾纯享版 丧尸不要停 丧尸病狂 温暖的，甜蜜的 实现永恒幸福的七个阶段 猫忍 大杀手 少年鳄鱼队3</strong>
+                <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+                <span class="card-meta">
+                    <span>根据片名判断</span>
+                    <span>根据片名判断</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 枪灵计划 尊重 穴居人 米奇17号 半点朱唇万客尝 蛇蝎情人 魔力麦克 记忆切割 潘蒂姐妹 树袋熊 奴隶 那一场呼啸而过的青春 百货店巡视员 天赐之女 豪勇七蛟龙 四大汉 杀手酒店 电波袭击 反应堆 跳出我天地音乐剧" data-region="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断 根据片名判断">
+        <a class="poster-link" href="./movie-486.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 枪灵计划 尊重 穴居人 米奇17号 半点朱唇万客尝 蛇蝎情人 魔力麦克 记忆切割 潘蒂姐妹 树袋熊 奴隶 那一场呼啸而过的青春 百货店巡视员 天赐之女 豪勇七蛟龙 四大汉 杀手酒店 电波袭击 反应堆 跳出我天地音乐剧">
+            <span class="poster-frame">
+                <img src="./36.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 枪灵计划 尊重 穴居人 米奇17号 半点朱唇万客尝 蛇蝎情人 魔力麦克 记忆切割 潘蒂姐妹 树袋熊 奴隶 那一场呼啸而过的青春 百货店巡视员 天赐之女 豪勇七蛟龙 四大汉 杀手酒店 电波袭击 反应堆 跳出我天地音乐剧" loading="lazy">
+                <span class="type-badge">根据片名判断</span>
+                <span class="year-badge">根据片名判断</span>
+            </span>
+            <span class="card-body">
+                <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 枪灵计划 尊重 穴居人 米奇17号 半点朱唇万客尝 蛇蝎情人 魔力麦克 记忆切割 潘蒂姐妹 树袋熊 奴隶 那一场呼啸而过的青春 百货店巡视员 天赐之女 豪勇七蛟龙 四大汉 杀手酒店 电波袭击 反应堆 跳出我天地音乐剧</strong>
+                <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+                <span class="card-meta">
+                    <span>根据片名判断</span>
+                    <span>根据片名判断</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 县长当村官 野心 四十岁 真的有天堂 琼花仙乐 麦当娜 奇幻夜 带你去看北极光 假装不正经 十四孤儿闯江湖 淑女本色 谎画情人 小子胆生毛 异形帝国之灵与欲 菜鸟老警第六季 恶梦布偶 海绵宝宝：蟹堡王周年庆 刀客家族的女人 这丫环我用不起 犬犬风尘" data-region="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断 根据片名判断">
+        <a class="poster-link" href="./movie-571.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 县长当村官 野心 四十岁 真的有天堂 琼花仙乐 麦当娜 奇幻夜 带你去看北极光 假装不正经 十四孤儿闯江湖 淑女本色 谎画情人 小子胆生毛 异形帝国之灵与欲 菜鸟老警第六季 恶梦布偶 海绵宝宝：蟹堡王周年庆 刀客家族的女人 这丫环我用不起 犬犬风尘">
+            <span class="poster-frame">
+                <img src="./121.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 县长当村官 野心 四十岁 真的有天堂 琼花仙乐 麦当娜 奇幻夜 带你去看北极光 假装不正经 十四孤儿闯江湖 淑女本色 谎画情人 小子胆生毛 异形帝国之灵与欲 菜鸟老警第六季 恶梦布偶 海绵宝宝：蟹堡王周年庆 刀客家族的女人 这丫环我用不起 犬犬风尘" loading="lazy">
+                <span class="type-badge">根据片名判断</span>
+                <span class="year-badge">根据片名判断</span>
+            </span>
+            <span class="card-body">
+                <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 县长当村官 野心 四十岁 真的有天堂 琼花仙乐 麦当娜 奇幻夜 带你去看北极光 假装不正经 十四孤儿闯江湖 淑女本色 谎画情人 小子胆生毛 异形帝国之灵与欲 菜鸟老警第六季 恶梦布偶 海绵宝宝：蟹堡王周年庆 刀客家族的女人 这丫环我用不起 犬犬风尘</strong>
+                <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+                <span class="card-meta">
+                    <span>根据片名判断</span>
+                    <span>根据片名判断</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 公车惊魂 七日地狱 暴力街头3：决不退缩 双星赶月 爱情卡路里 隔离好家在 我的爱人．你的死神 爱的种子 玉米地的孩子8 爱火 加油站趣事大电影 车祸疑云 在我看来 生活代价 扭曲的规则 少女前线 日本最漫长的一天 魅影追击 重启 南极大冒险" data-region="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断 根据片名判断">
+        <a class="poster-link" href="./movie-612.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 公车惊魂 七日地狱 暴力街头3：决不退缩 双星赶月 爱情卡路里 隔离好家在 我的爱人．你的死神 爱的种子 玉米地的孩子8 爱火 加油站趣事大电影 车祸疑云 在我看来 生活代价 扭曲的规则 少女前线 日本最漫长的一天 魅影追击 重启 南极大冒险">
+            <span class="poster-frame">
+                <img src="./12.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 公车惊魂 七日地狱 暴力街头3：决不退缩 双星赶月 爱情卡路里 隔离好家在 我的爱人．你的死神 爱的种子 玉米地的孩子8 爱火 加油站趣事大电影 车祸疑云 在我看来 生活代价 扭曲的规则 少女前线 日本最漫长的一天 魅影追击 重启 南极大冒险" loading="lazy">
+                <span class="type-badge">根据片名判断</span>
+                <span class="year-badge">根据片名判断</span>
+            </span>
+            <span class="card-body">
+                <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 公车惊魂 七日地狱 暴力街头3：决不退缩 双星赶月 爱情卡路里 隔离好家在 我的爱人．你的死神 爱的种子 玉米地的孩子8 爱火 加油站趣事大电影 车祸疑云 在我看来 生活代价 扭曲的规则 少女前线 日本最漫长的一天 魅影追击 重启 南极大冒险</strong>
+                <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+                <span class="card-meta">
+                    <span>根据片名判断</span>
+                    <span>根据片名判断</span>
+                </span>
+            </span>
+        </a>
+    </article></div>
+    </section>
+            <section class="section-card blue-card">
+        <div class="section-head">
+            <div>
+                <span class="section-icon">◎</span>
+                <h2>按地区浏览</h2>
+            <p>按地区进入影片内容，快速找到感兴趣的片单。</p>
+            </div>
+            <a class="section-link" href="./search.html">查看全部 →</a>
+        </div>
+        <div class="pill-grid"><a class="pill-tile" href="./search.html?region=意大利">意大利</a><a class="pill-tile" href="./search.html?region=美国">美国</a><a class="pill-tile" href="./search.html?region=中国大陆">中国大陆</a><a class="pill-tile" href="./search.html?region=中国香港">中国香港</a><a class="pill-tile" href="./search.html?region=法国">法国</a><a class="pill-tile" href="./search.html?region=比利时">比利时</a><a class="pill-tile" href="./search.html?region=韩国">韩国</a><a class="pill-tile" href="./search.html?region=香港">香港</a><a class="pill-tile" href="./search.html?region=日本">日本</a><a class="pill-tile" href="./search.html?region=伊拉克">伊拉克</a></div>
+    </section>
+            <section class="section-card purple-card">
+        <div class="section-head">
+            <div>
+                <span class="section-icon">▣</span>
+                <h2>分类片库</h2>
+            <p>多种主题入口串联全站影片详情。</p>
+            </div>
+            <a class="section-link" href="./categories.html">查看全部 →</a>
+        </div>
+        <div class="category-grid"><a class="category-tile" href="./category-featured-cinema.html">
+                <strong>精选影院</strong>
+                <span>精选多题材热门内容，适合快速浏览不同风格的片单。</span>
+            </a><a class="category-tile" href="./category-hot-movies.html">
+                <strong>高清电影</strong>
+                <span>以电影内容为核心，覆盖新片、经典与口碑佳作。</span>
+            </a><a class="category-tile" href="./category-drama-library.html">
+                <strong>剧情片库</strong>
+                <span>聚合叙事扎实、人物关系鲜明的剧情向内容。</span>
+            </a><a class="category-tile" href="./category-suspense-thriller.html">
+                <strong>悬疑惊悚</strong>
+                <span>偏重悬念、反转、犯罪与惊悚氛围的影片集合。</span>
+            </a><a class="category-tile" href="./category-action-adventure.html">
+                <strong>动作冒险</strong>
+                <span>收录动作、冒险、热血与高节奏类型片。</span>
+            </a><a class="category-tile" href="./category-comedy-life.html">
+                <strong>喜剧生活</strong>
+                <span>轻松、家庭、都市与生活题材内容集中浏览。</span>
+            </a><a class="category-tile" href="./category-romance-art.html">
+                <strong>爱情文艺</strong>
+                <span>适合查找爱情、文艺、治愈和情感题材。</span>
+            </a><a class="category-tile" href="./category-fantasy-world.html">
+                <strong>科幻奇幻</strong>
+                <span>覆盖科幻、奇幻、超自然与想象力题材内容。</span>
+            </a></div>
+    </section>
+            <section class="section-card">
+        <div class="section-head">
+            <div>
+                <span class="section-icon">✦</span>
+                <h2>随机发现</h2>
+            </div>
+            <a class="section-link" href="./search.html">查看全部 →</a>
+        </div>
+        <div class="movie-grid three-col"><article class="movie-card" data-title="道熙啊" data-region="韩国" data-year="2014" data-tags="女警 家暴 救赎 复杂人性 剧情 同性">
+        <a class="poster-link" href="./movie-13.html" aria-label="道熙啊">
+            <span class="poster-frame">
+                <img src="./13.jpg" alt="道熙啊" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2014</span>
+            </span>
+            <span class="card-body">
+                <strong>道熙啊</strong>
+                <em>被流放到海边小镇的女警收留了遭家暴的少女道熙，但这份依赖背后，藏着少女深不见底的秘密。</em>
+                <span class="card-meta">
+                    <span>剧情</span>
+                    <span>韩国</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="尸落沙漠" data-region="美国" data-year="2023" data-tags="丧尸末日 极端环境 人性实验 恐怖 惊悚 生存">
+        <a class="poster-link" href="./movie-26.html" aria-label="尸落沙漠">
+            <span class="poster-frame">
+                <img src="./26.jpg" alt="尸落沙漠" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2023</span>
+            </span>
+            <span class="card-body">
+                <strong>尸落沙漠</strong>
+                <em>丧尸病毒爆发后，最安全的地方不是地下掩体，而是死亡谷的沙漠中心。</em>
+                <span class="card-meta">
+                    <span>恐怖</span>
+                    <span>美国</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="笨蛋们漫长的冬天" data-region="日本" data-year="2022" data-tags="小镇疑云 友谊 时间轮回 青春 悬疑 治愈">
+        <a class="poster-link" href="./movie-39.html" aria-label="笨蛋们漫长的冬天">
+            <span class="poster-frame">
+                <img src="./39.jpg" alt="笨蛋们漫长的冬天" loading="lazy">
+                <span class="type-badge">剧集</span>
+                <span class="year-badge">2022</span>
+            </span>
+            <span class="card-body">
+                <strong>笨蛋们漫长的冬天</strong>
+                <em>七个被留校的“笨蛋”高中生，被困在暴风雪夜里无限循环，除非找出谁是“真凶”。</em>
+                <span class="card-meta">
+                    <span>青春</span>
+                    <span>日本</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="竞选风云" data-region="中国香港" data-year="2002" data-tags="选举操盘 传媒公关 形象包装 权力交换 舆论战 反转 政治 剧情 喜剧 群像">
+        <a class="poster-link" href="./movie-52.html" aria-label="竞选风云">
+            <span class="poster-frame">
+                <img src="./52.jpg" alt="竞选风云" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2002</span>
+            </span>
+            <span class="card-body">
+                <strong>竞选风云</strong>
+                <em>一场看似体面的地方竞选，把候选人、幕僚、媒体和金主全卷进舆论战，最后连最会演戏的人都发现自己只是更大的棋局里一枚可替换的筹码。</em>
+                <span class="card-meta">
+                    <span>政治</span>
+                    <span>中国香港</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="消废者联盟" data-region="中国内地" data-year="2025" data-tags="垃圾回收 意识上传 反乌托邦 科幻 悬疑">
+        <a class="poster-link" href="./movie-65.html" aria-label="消废者联盟">
+            <span class="poster-frame">
+                <img src="./65.jpg" alt="消废者联盟" loading="lazy">
+                <span class="type-badge">剧集</span>
+                <span class="year-badge">2025</span>
+            </span>
+            <span class="card-body">
+                <strong>消废者联盟</strong>
+                <em>在垃圾堆里回收旧家电的年轻人，意外发现所有报废产品都曾被人为植入人类意识。</em>
+                <span class="card-meta">
+                    <span>科幻</span>
+                    <span>中国内地</span>
+                </span>
+            </span>
+        </a>
+    </article><article class="movie-card" data-title="醉乡民谣" data-region="美国" data-year="2013" data-tags="民谣 怀旧 失败者 艺术人生 剧情 音乐">
+        <a class="poster-link" href="./movie-78.html" aria-label="醉乡民谣">
+            <span class="poster-frame">
+                <img src="./78.jpg" alt="醉乡民谣" loading="lazy">
+                <span class="type-badge">电影</span>
+                <span class="year-badge">2013</span>
+            </span>
+            <span class="card-body">
+                <strong>醉乡民谣</strong>
+                <em>六十年代格林威治村，一个没有舞台的民谣歌手抱着猫在雪夜寻找最后一根稻草。</em>
+                <span class="card-meta">
+                    <span>剧情</span>
+                    <span>美国</span>
+                </span>
+            </span>
+        </a>
+    </article></div>
+    </section>
+            <section class="section-card">
+        <div class="section-head">
+            <div>
+                <span class="section-icon">↗</span>
+                <h2>最新收录</h2>
+            </div>
+            
+        </div>
+        <div class="row-list"><a class="movie-row" href="./movie-2000.html">
+        <span class="row-cover"><img src="./50.jpg" alt="蓬岛春色" loading="lazy"></span>
+        <span class="list-rank">•</span>
+        <span class="row-text">
+            <strong>蓬岛春色</strong>
+            <em>失意建筑师在谷歌地图上发现一座不存在的小岛，乘船前往后，发现岛上的春天永远不会结束。</em>
+        </span>
+        <span class="row-meta">2025 · 中国台湾</span>
+    </a><a class="movie-row" href="./movie-1999.html">
+        <span class="row-cover"><img src="./49.jpg" alt="胭脂劫" loading="lazy"></span>
+        <span class="list-rank">•</span>
+        <span class="row-text">
+            <strong>胭脂劫</strong>
+            <em>1963年香港，一家旗袍店的老板娘会在每一件定制的旗袍里缝进一种慢性毒药，目标是她曾经的情人们。</em>
+        </span>
+        <span class="row-meta">2025 · 中国香港</span>
+    </a><a class="movie-row" href="./movie-1998.html">
+        <span class="row-cover"><img src="./48.jpg" alt="洁癖男子青山君" loading="lazy"></span>
+        <span class="list-rank">•</span>
+        <span class="row-text">
+            <strong>洁癖男子青山君</strong>
+            <em>有重度洁癖的高中生青山君，为了不弄脏自己而意外成了全校最受欢迎的怪人。</em>
+        </span>
+        <span class="row-meta">2023 · 日本</span>
+    </a><a class="movie-row" href="./movie-1997.html">
+        <span class="row-cover"><img src="./47.jpg" alt="乔·皮克特第二季" loading="lazy"></span>
+        <span class="list-rank">•</span>
+        <span class="row-text">
+            <strong>乔·皮克特第二季</strong>
+            <em>怀俄明的狩猎监督官乔·皮克特回归，这一次，他不仅要面对偷猎者，还要对抗将有毒废料倾倒入印第安保留地的巨型企业。</em>
+        </span>
+        <span class="row-meta">2024 · 美国</span>
+    </a><a class="movie-row" href="./movie-1996.html">
+        <span class="row-cover"><img src="./46.jpg" alt="抵达的渡轮" loading="lazy"></span>
+        <span class="list-rank">•</span>
+        <span class="row-text">
+            <strong>抵达的渡轮</strong>
+            <em>每夜凌晨，一艘渡轮会载来七名乘客，他们是当天刚死亡、但不愿承认自己已死的人。</em>
+        </span>
+        <span class="row-meta">2023 · 英国</span>
+    </a><a class="movie-row" href="./movie-1995.html">
+        <span class="row-cover"><img src="./45.jpg" alt="深夜的超自然公务员" loading="lazy"></span>
+        <span class="list-rank">•</span>
+        <span class="row-text">
+            <strong>深夜的超自然公务员</strong>
+            <em>新晋公务员被分到“夜间地域课”，专管那些在深夜违规出没的妖怪和幽灵。</em>
+        </span>
+        <span class="row-meta">2024 · 日本</span>
+    </a><a class="movie-row" href="./movie-1994.html">
+        <span class="row-cover"><img src="./44.jpg" alt="梦续奇缘" loading="lazy"></span>
+        <span class="list-rank">•</span>
+        <span class="row-text">
+            <strong>梦续奇缘</strong>
+            <em>现代女孩每晚都梦到自己是民国粤剧花旦，当她找到梦中戏服，却引发了两世的感情纠葛。</em>
+        </span>
+        <span class="row-meta">1997 · 中国香港</span>
+    </a><a class="movie-row" href="./movie-1993.html">
+        <span class="row-cover"><img src="./43.jpg" alt="圣彼得堡的囚徒" loading="lazy"></span>
+        <span class="list-rank">•</span>
+        <span class="row-text">
+            <strong>圣彼得堡的囚徒</strong>
+            <em>一名被囚禁在冬宫地牢的哑巴囚犯，每周都被要求写下一份关于宫廷阴谋的“真实”供词。</em>
+        </span>
+        <span class="row-meta">2024 · 俄罗斯</span>
+    </a></div>
+    </section>
+            <section class="section-card">
+        <div class="section-head">
+            <div>
+                <span class="section-icon">♛</span>
+                <h2>热门排行榜</h2>
+            </div>
+            <a class="section-link" href="./ranking.html">查看全部 →</a>
+        </div>
+        <div class="rank-list"><a class="movie-row" href="./movie-68.html">
+        <span class="row-cover"><img src="./68.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 将计就计 20世纪少女 井冈山 尚红书院 恋语轻唱 征空伟史 洪福齐天粤语 完美释放2012 我的女儿卡琳卡 梨园春色 冬日2003 她真漂亮 隐形狂人 动漫影后 无聊诗社第二季 一骑定情缘 从容的快板 砂之器2019 吉尔吉斯少年行 索伊·拉达：鸿运当头" loading="lazy"></span>
+        <span class="list-rank">1</span>
+        <span class="row-text">
+            <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 将计就计 20世纪少女 井冈山 尚红书院 恋语轻唱 征空伟史 洪福齐天粤语 完美释放2012 我的女儿卡琳卡 梨园春色 冬日2003 她真漂亮 隐形狂人 动漫影后 无聊诗社第二季 一骑定情缘 从容的快板 砂之器2019 吉尔吉斯少年行 索伊·拉达：鸿运当头</strong>
+            <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+        </span>
+        <span class="row-meta">根据片名判断 · 根据片名判断</span>
+    </a><a class="movie-row" href="./movie-171.html">
+        <span class="row-cover"><img src="./21.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 空洞之夜 我爱777 奇怪的克兰太太 恐龙饭店 狼灾记 后备计划 革命叛徒 情海波澜 水银灯下死 告别我的悠长过往 东京之女 小小羊儿要回家 史前战纪第二季 德古拉：永咒传奇 时髦境地 夺城 攀爬马特宏峰 妈，我没时间 妙探父子兵 芭比和神秘之门" loading="lazy"></span>
+        <span class="list-rank">2</span>
+        <span class="row-text">
+            <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 空洞之夜 我爱777 奇怪的克兰太太 恐龙饭店 狼灾记 后备计划 革命叛徒 情海波澜 水银灯下死 告别我的悠长过往 东京之女 小小羊儿要回家 史前战纪第二季 德古拉：永咒传奇 时髦境地 夺城 攀爬马特宏峰 妈，我没时间 妙探父子兵 芭比和神秘之门</strong>
+            <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+        </span>
+        <span class="row-meta">根据片名判断 · 根据片名判断</span>
+    </a><a class="movie-row" href="./movie-272.html">
+        <span class="row-cover"><img src="./122.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 香港蛙人粤语 一个夏日的夜晚 邓稼先 小卖部后门 自卫的艺术 第一茶庄 三角窗外是黑夜 登场了丝绸之路 解忧公主 布里叶女士 高山上的世界杯 穿裘皮的维纳斯 五十公里桃花坞3 说唱听我的 偿命 情爱保险 丧子疑云 布袋和尚粤语 夺宝幸运星2 蓝色恐惧" loading="lazy"></span>
+        <span class="list-rank">3</span>
+        <span class="row-text">
+            <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 香港蛙人粤语 一个夏日的夜晚 邓稼先 小卖部后门 自卫的艺术 第一茶庄 三角窗外是黑夜 登场了丝绸之路 解忧公主 布里叶女士 高山上的世界杯 穿裘皮的维纳斯 五十公里桃花坞3 说唱听我的 偿命 情爱保险 丧子疑云 布袋和尚粤语 夺宝幸运星2 蓝色恐惧</strong>
+            <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+        </span>
+        <span class="row-meta">根据片名判断 · 根据片名判断</span>
+    </a><a class="movie-row" href="./movie-445.html">
+        <span class="row-cover"><img src="./145.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 山河令 阿达玛 惊声尖叫3 双城悲歌 人间大炮2 我们的爱情不正常 欧若拉之晨 别放手 诅咒之刃 特工次世代 金霸王 午夜凶铃2 大虫灾 克伦西亚 玉米田的孩子：逃亡 未生 花木兰的秘密 法外情 我们的故事未完待续 你的好邻居蜘蛛侠第一季" loading="lazy"></span>
+        <span class="list-rank">4</span>
+        <span class="row-text">
+            <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 山河令 阿达玛 惊声尖叫3 双城悲歌 人间大炮2 我们的爱情不正常 欧若拉之晨 别放手 诅咒之刃 特工次世代 金霸王 午夜凶铃2 大虫灾 克伦西亚 玉米田的孩子：逃亡 未生 花木兰的秘密 法外情 我们的故事未完待续 你的好邻居蜘蛛侠第一季</strong>
+            <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+        </span>
+        <span class="row-meta">根据片名判断 · 根据片名判断</span>
+    </a><a class="movie-row" href="./movie-475.html">
+        <span class="row-cover"><img src="./25.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 红色 感恩时节 圣物秘闻录 亲爱的篮球 性病态心理学 活出好命来 文君怨 时候到了 不要送花给我 超能敢死队 实习天使粤语 鲸之歌 声临其境 嘉宾纯享版 丧尸不要停 丧尸病狂 温暖的，甜蜜的 实现永恒幸福的七个阶段 猫忍 大杀手 少年鳄鱼队3" loading="lazy"></span>
+        <span class="list-rank">5</span>
+        <span class="row-text">
+            <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 红色 感恩时节 圣物秘闻录 亲爱的篮球 性病态心理学 活出好命来 文君怨 时候到了 不要送花给我 超能敢死队 实习天使粤语 鲸之歌 声临其境 嘉宾纯享版 丧尸不要停 丧尸病狂 温暖的，甜蜜的 实现永恒幸福的七个阶段 猫忍 大杀手 少年鳄鱼队3</strong>
+            <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+        </span>
+        <span class="row-meta">根据片名判断 · 根据片名判断</span>
+    </a><a class="movie-row" href="./movie-486.html">
+        <span class="row-cover"><img src="./36.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 枪灵计划 尊重 穴居人 米奇17号 半点朱唇万客尝 蛇蝎情人 魔力麦克 记忆切割 潘蒂姐妹 树袋熊 奴隶 那一场呼啸而过的青春 百货店巡视员 天赐之女 豪勇七蛟龙 四大汉 杀手酒店 电波袭击 反应堆 跳出我天地音乐剧" loading="lazy"></span>
+        <span class="list-rank">6</span>
+        <span class="row-text">
+            <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 枪灵计划 尊重 穴居人 米奇17号 半点朱唇万客尝 蛇蝎情人 魔力麦克 记忆切割 潘蒂姐妹 树袋熊 奴隶 那一场呼啸而过的青春 百货店巡视员 天赐之女 豪勇七蛟龙 四大汉 杀手酒店 电波袭击 反应堆 跳出我天地音乐剧</strong>
+            <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+        </span>
+        <span class="row-meta">根据片名判断 · 根据片名判断</span>
+    </a><a class="movie-row" href="./movie-571.html">
+        <span class="row-cover"><img src="./121.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 县长当村官 野心 四十岁 真的有天堂 琼花仙乐 麦当娜 奇幻夜 带你去看北极光 假装不正经 十四孤儿闯江湖 淑女本色 谎画情人 小子胆生毛 异形帝国之灵与欲 菜鸟老警第六季 恶梦布偶 海绵宝宝：蟹堡王周年庆 刀客家族的女人 这丫环我用不起 犬犬风尘" loading="lazy"></span>
+        <span class="list-rank">7</span>
+        <span class="row-text">
+            <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 县长当村官 野心 四十岁 真的有天堂 琼花仙乐 麦当娜 奇幻夜 带你去看北极光 假装不正经 十四孤儿闯江湖 淑女本色 谎画情人 小子胆生毛 异形帝国之灵与欲 菜鸟老警第六季 恶梦布偶 海绵宝宝：蟹堡王周年庆 刀客家族的女人 这丫环我用不起 犬犬风尘</strong>
+            <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+        </span>
+        <span class="row-meta">根据片名判断 · 根据片名判断</span>
+    </a><a class="movie-row" href="./movie-612.html">
+        <span class="row-cover"><img src="./12.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 公车惊魂 七日地狱 暴力街头3：决不退缩 双星赶月 爱情卡路里 隔离好家在 我的爱人．你的死神 爱的种子 玉米地的孩子8 爱火 加油站趣事大电影 车祸疑云 在我看来 生活代价 扭曲的规则 少女前线 日本最漫长的一天 魅影追击 重启 南极大冒险" loading="lazy"></span>
+        <span class="list-rank">8</span>
+        <span class="row-text">
+            <strong>使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 公车惊魂 七日地狱 暴力街头3：决不退缩 双星赶月 爱情卡路里 隔离好家在 我的爱人．你的死神 爱的种子 玉米地的孩子8 爱火 加油站趣事大电影 车祸疑云 在我看来 生活代价 扭曲的规则 少女前线 日本最漫长的一天 魅影追击 重启 南极大冒险</strong>
+            <em>（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</em>
+        </span>
+        <span class="row-meta">根据片名判断 · 根据片名判断</span>
+    </a></div>
+    </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-brand">
+                    <span class="brand-mark">▶</span>
+                    <span>热门影片片库</span>
+                </div>
+                <p>整理热门影片片库内容，覆盖电影、剧集与地区分类，方便按热度快速浏览。</p>
+            </div>
+            <div>
+                <h3>分类浏览</h3>
+                <ul>
+                    <li><a href="./category-featured-cinema.html">精选影院</a></li>
+                    <li><a href="./category-hot-movies.html">高清电影</a></li>
+                    <li><a href="./category-drama-library.html">剧情片库</a></li>
+                    <li><a href="./category-suspense-thriller.html">悬疑惊悚</a></li>
+                    <li><a href="./category-action-adventure.html">动作冒险</a></li>
+                    <li><a href="./category-comedy-life.html">喜剧生活</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>快速导航</h3>
+                <ul>
+                    <li><a href="./index.html">首页推荐</a></li>
+                    <li><a href="./categories.html">分类总览</a></li>
+                    <li><a href="./ranking.html">热门榜单</a></li>
+                    <li><a href="./search.html">影片搜索</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>精选内容</h3>
+                <p>电影、剧集、地区与年份多维浏览，快速进入感兴趣的片单。</p>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 热门影片片库 · 高清电影大全 · 热门影片在线点播</div>
+    </footer>
+    <script src="./assets/app.js"></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

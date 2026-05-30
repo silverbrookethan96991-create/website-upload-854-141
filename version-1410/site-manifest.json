@@ -1,0 +1,60 @@
+{
+  "siteTitle": "国产电视剧大全-热播剧集片库-全集高清在线播放",
+  "logo": "高清剧集大全",
+  "totalMovies": 2000,
+  "detailPages": 2000,
+  "categories": [
+    {
+      "slug": "hot-drama",
+      "name": "热播剧场",
+      "count": 200
+    },
+    {
+      "slug": "urban-life",
+      "name": "都市生活",
+      "count": 200
+    },
+    {
+      "slug": "suspense-crime",
+      "name": "悬疑犯罪",
+      "count": 200
+    },
+    {
+      "slug": "family-romance",
+      "name": "家庭情感",
+      "count": 200
+    },
+    {
+      "slug": "history-period",
+      "name": "历史年代",
+      "count": 200
+    },
+    {
+      "slug": "youth-campus",
+      "name": "青春校园",
+      "count": 200
+    },
+    {
+      "slug": "costume-legend",
+      "name": "古装传奇",
+      "count": 200
+    },
+    {
+      "slug": "sci-fi-adventure",
+      "name": "科幻冒险",
+      "count": 200
+    },
+    {
+      "slug": "comedy-variety",
+      "name": "喜剧综艺",
+      "count": 200
+    },
+    {
+      "slug": "global-choice",
+      "name": "全球精选",
+      "count": 200
+    }
+  ],
+  "imagesExpectedAtRoot": "1.jpg 到 150.jpg",
+  "player": "M3U8/HLS 点击加载播放器"
+}

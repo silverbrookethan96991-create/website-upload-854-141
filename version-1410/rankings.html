@@ -1,0 +1,1405 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>排行榜-热播剧集片库-国产电视剧大全-热播剧集片库-全集高清在线播放</title>
+  <meta name="description" content="国产电视剧大全排行榜页，展示热播剧集、口碑佳作与站内推荐影片。">
+  <meta name="keywords" content="国产电视剧大全,国产电视剧,热播剧集,全集播放,高清电视剧,国产剧,剧集片库,排行榜,热播榜,高分剧集">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="assets/site.css">
+
+</head>
+<body>
+<header class="site-header" data-site-header>
+  <div class="header-inner">
+    <a href="index.html" class="brand" aria-label="返回首页">
+      <span class="brand-mark" aria-hidden="true">剧</span>
+      <span class="brand-text">
+        <strong>高清剧集大全</strong>
+        <small>国产热播 · 剧集片库</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html" class="nav-link">首页</a>
+      <a href="all.html" class="nav-link">全部影片</a>
+      <a href="categories.html" class="nav-link">分类总览</a>
+      <a href="rankings.html" class="nav-link is-active">排行榜</a>
+          <a href="category/hot-drama.html" class="nav-link">热播剧场</a>
+          <a href="category/urban-life.html" class="nav-link">都市生活</a>
+          <a href="category/suspense-crime.html" class="nav-link">悬疑犯罪</a>
+          <a href="category/family-romance.html" class="nav-link">家庭情感</a>
+    </nav>
+
+    <form class="header-search" action="all.html" method="get" data-search-redirect>
+      <label class="sr-only" for="header-search-rankings">搜索影片</label>
+      <input id="header-search-rankings" name="q" type="search" placeholder="搜索片名 / 标签" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+
+    <button class="mobile-menu-button" type="button" aria-label="打开导航" data-mobile-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" data-mobile-nav>
+    <a href="index.html" class="mobile-nav-link">首页</a>
+    <a href="all.html" class="mobile-nav-link">全部影片</a>
+    <a href="categories.html" class="mobile-nav-link">分类总览</a>
+    <a href="rankings.html" class="mobile-nav-link is-active">排行榜</a>
+        <a href="category/hot-drama.html" class="mobile-nav-link">热播剧场</a>
+        <a href="category/urban-life.html" class="mobile-nav-link">都市生活</a>
+        <a href="category/suspense-crime.html" class="mobile-nav-link">悬疑犯罪</a>
+        <a href="category/family-romance.html" class="mobile-nav-link">家庭情感</a>
+  </div>
+</header>
+<main>
+
+<section class="page-hero compact-page-hero">
+  <div class="container">
+    <span class="eyebrow">排行榜</span>
+    <h1>热播剧集综合榜</h1>
+    <p>综合年份、标签与站内热度呈现的榜单，所有条目均可进入独立详情页播放。</p>
+  </div>
+</section>
+
+<div class="container page-sections" data-filter-page>
+  <section class="filter-panel" data-filter-panel>
+  <div>
+    <h2>榜单筛选</h2>
+    <p>输入片名、地区、题材或标签即可即时筛选当前页面影片。</p>
+  </div>
+  <div class="filter-controls">
+    <label class="filter-search">
+      <span>关键词</span>
+      <input id="searchInput" type="search" placeholder="搜索片名、简介、标签" data-filter-control>
+    </label>
+    <label>
+      <span>地区</span>
+      <select id="regionFilter" data-filter-control>
+        <option value="">全部地区</option>
+          <option value="中国大陆">中国大陆</option>
+          <option value="美国">美国</option>
+          <option value="日本">日本</option>
+          <option value="韩国">韩国</option>
+          <option value="中国香港">中国香港</option>
+          <option value="德国">德国</option>
+          <option value="中国台湾">中国台湾</option>
+          <option value="美国/加拿大">美国/加拿大</option>
+          <option value="中国">中国</option>
+          <option value="法国">法国</option>
+          <option value="英国">英国</option>
+          <option value="印度">印度</option>
+          <option value="瑞典">瑞典</option>
+          <option value="捷克">捷克</option>
+          <option value="西班牙">西班牙</option>
+          <option value="泰国">泰国</option>
+          <option value="智利/阿根廷">智利/阿根廷</option>
+          <option value="俄罗斯">俄罗斯</option>
+          <option value="美国/意大利">美国/意大利</option>
+      </select>
+    </label>
+    <label>
+      <span>类型</span>
+      <select id="typeFilter" data-filter-control>
+        <option value="">全部类型</option>
+          <option value="剧集">剧集</option>
+          <option value="动画">动画</option>
+          <option value="电影">电影</option>
+          <option value="综艺">综艺</option>
+      </select>
+    </label>
+    <label>
+      <span>年份</span>
+      <select id="yearFilter" data-filter-control>
+        <option value="">全部年份</option>
+          <option value="2027">2027</option>
+          <option value="2026">2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+      </select>
+    </label>
+      <label>
+        <span>分类</span>
+        <select id="categoryFilter" data-filter-control>
+          <option value="">全部分类</option>
+          <option value="热播剧场">热播剧场</option>
+          <option value="都市生活">都市生活</option>
+          <option value="悬疑犯罪">悬疑犯罪</option>
+          <option value="家庭情感">家庭情感</option>
+          <option value="历史年代">历史年代</option>
+          <option value="青春校园">青春校园</option>
+          <option value="古装传奇">古装传奇</option>
+          <option value="科幻冒险">科幻冒险</option>
+          <option value="喜剧综艺">喜剧综艺</option>
+          <option value="全球精选">全球精选</option>
+        </select>
+      </label>
+  </div>
+  <div class="filter-count">
+    当前显示 <strong data-filter-count>100</strong> 部 / 共 100 部
+  </div>
+</section>
+  <section class="ranking-list" data-card-grid>
+
+    <article class="ranking-row" data-movie-card data-title="东京夜都市" data-region="日本" data-type="电影" data-year="2027" data-category="古装传奇" data-genre="剧情/犯罪" data-tags="新宿,黑帮,生存法则,夜生活">
+      <a href="detail/0684.html">
+        <span class="ranking-number">01</span>
+        <img src="84.jpg" alt="东京夜都市 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>东京夜都市</strong>
+          <small>日本 · 电影 · 2027 · 古装传奇</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="繁华似锦" data-region="中国大陆" data-type="剧集" data-year="2027" data-category="家庭情感" data-genre="都市,创业" data-tags="商战,逆袭,直播带货">
+      <a href="detail/1213.html">
+        <span class="ranking-number">02</span>
+        <img src="13.jpg" alt="繁华似锦 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>繁华似锦</strong>
+          <small>中国大陆 · 剧集 · 2027 · 家庭情感</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="丽莎" data-region="美国" data-type="剧集" data-year="2026" data-category="全球精选" data-genre="科幻,悬疑" data-tags="人工智能,觉醒,家庭伦理,道德困境">
+      <a href="detail/0061.html">
+        <span class="ranking-number">03</span>
+        <img src="61.jpg" alt="丽莎 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>丽莎</strong>
+          <small>美国 · 剧集 · 2026 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="虎踞龙蟠" data-region="中国大陆" data-type="电影" data-year="2026" data-category="科幻冒险" data-genre="动作/犯罪/悬疑" data-tags="南京,刑警,文物走私,双雄,硬核">
+      <a href="detail/0153.html">
+        <span class="ranking-number">04</span>
+        <img src="3.jpg" alt="虎踞龙蟠 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>虎踞龙蟠</strong>
+          <small>中国大陆 · 电影 · 2026 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="空中的幽灵船" data-region="德国" data-type="电影" data-year="2026" data-category="古装传奇" data-genre="科幻/冒险" data-tags="飞艇,末日废土,寻宝">
+      <a href="detail/0364.html">
+        <span class="ranking-number">05</span>
+        <img src="64.jpg" alt="空中的幽灵船 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>空中的幽灵船</strong>
+          <small>德国 · 电影 · 2026 · 古装传奇</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="死亡幽暗" data-region="英国" data-type="电影" data-year="2026" data-category="青春校园" data-genre="恐怖,心理惊悚" data-tags="古宅,心理扭曲,反转">
+      <a href="detail/0516.html">
+        <span class="ranking-number">06</span>
+        <img src="66.jpg" alt="死亡幽暗 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>死亡幽暗</strong>
+          <small>英国 · 电影 · 2026 · 青春校园</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="致褒曼的情书" data-region="瑞典" data-type="电影" data-year="2026" data-category="喜剧综艺" data-genre="剧情,传记" data-tags="迷影,老年,救赎,书信">
+      <a href="detail/0770.html">
+        <span class="ranking-number">07</span>
+        <img src="20.jpg" alt="致褒曼的情书 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>致褒曼的情书</strong>
+          <small>瑞典 · 电影 · 2026 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="2012:冰河世纪" data-region="美国/加拿大" data-type="电影" data-year="2026" data-category="科幻冒险" data-genre="科幻/灾难" data-tags="极寒末世,生存列车,基因方舟">
+      <a href="detail/0829.html">
+        <span class="ranking-number">08</span>
+        <img src="79.jpg" alt="2012:冰河世纪 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>2012:冰河世纪</strong>
+          <small>美国/加拿大 · 电影 · 2026 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="天降艳福" data-region="韩国" data-type="电影" data-year="2026" data-category="科幻冒险" data-genre="浪漫,喜剧,奇幻" data-tags="邱比特,财运,桃花运,幸运值">
+      <a href="detail/0917.html">
+        <span class="ranking-number">09</span>
+        <img src="17.jpg" alt="天降艳福 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>天降艳福</strong>
+          <small>韩国 · 电影 · 2026 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="无法隐藏的本能:偷拍" data-region="美国" data-type="电影" data-year="2026" data-category="都市生活" data-genre="悬疑/科幻" data-tags="超自然,隐私,社会惊悚,道德困境">
+      <a href="detail/0945.html">
+        <span class="ranking-number">10</span>
+        <img src="45.jpg" alt="无法隐藏的本能:偷拍 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>无法隐藏的本能:偷拍</strong>
+          <small>美国 · 电影 · 2026 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="望夫石" data-region="中国香港" data-type="电影" data-year="2026" data-category="科幻冒险" data-genre="恐怖民俗" data-tags="民俗恐怖,香港,诅咒,女性复仇">
+      <a href="detail/1238.html">
+        <span class="ranking-number">11</span>
+        <img src="38.jpg" alt="望夫石 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>望夫石</strong>
+          <small>中国香港 · 电影 · 2026 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="赵氏孤儿" data-region="中国大陆" data-type="电影" data-year="2026" data-category="青春校园" data-genre="剧情/历史/古装" data-tags="春秋,复仇,牺牲,复仇伦理,改编">
+      <a href="detail/1815.html">
+        <span class="ranking-number">12</span>
+        <img src="15.jpg" alt="赵氏孤儿 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>赵氏孤儿</strong>
+          <small>中国大陆 · 电影 · 2026 · 青春校园</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="小淘气" data-region="中国大陆" data-type="剧集" data-year="2026" data-category="历史年代" data-genre="家庭,喜剧" data-tags="萌娃,神操作,荒诞,隔代亲">
+      <a href="detail/1874.html">
+        <span class="ranking-number">13</span>
+        <img src="74.jpg" alt="小淘气 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>小淘气</strong>
+          <small>中国大陆 · 剧集 · 2026 · 历史年代</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="守梦者" data-region="中国大陆" data-type="剧集" data-year="2025" data-category="科幻冒险" data-genre="悬疑,犯罪" data-tags="反腐,高智商,烧脑">
+      <a href="detail/0009.html">
+        <span class="ranking-number">14</span>
+        <img src="9.jpg" alt="守梦者 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>守梦者</strong>
+          <small>中国大陆 · 剧集 · 2025 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="该死的歌德" data-region="德国" data-type="电影" data-year="2025" data-category="全球精选" data-genre="喜剧/音乐/传记" data-tags="另类传记,摇滚诗人,历史解构,荒诞幽默">
+      <a href="detail/0107.html">
+        <span class="ranking-number">15</span>
+        <img src="107.jpg" alt="该死的歌德 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>该死的歌德</strong>
+          <small>德国 · 电影 · 2025 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="爱的大风暴" data-region="韩国" data-type="电影" data-year="2025" data-category="都市生活" data-genre="爱情,灾难" data-tags="末日,虐恋,台风">
+      <a href="detail/0161.html">
+        <span class="ranking-number">16</span>
+        <img src="11.jpg" alt="爱的大风暴 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>爱的大风暴</strong>
+          <small>韩国 · 电影 · 2025 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="12孤汉" data-region="中国大陆" data-type="电影" data-year="2025" data-category="青春校园" data-genre="悬疑,犯罪" data-tags="密室,孤岛,反转推理,社会派">
+      <a href="detail/0426.html">
+        <span class="ranking-number">17</span>
+        <img src="126.jpg" alt="12孤汉 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>12孤汉</strong>
+          <small>中国大陆 · 电影 · 2025 · 青春校园</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="国士无双" data-region="中国台湾" data-type="剧集" data-year="2025" data-category="青春校园" data-genre="历史,悬疑,动作" data-tags="日据时期,间谍,象棋,双面间谍,史诗">
+      <a href="detail/0571.html">
+        <span class="ranking-number">18</span>
+        <img src="121.jpg" alt="国士无双 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>国士无双</strong>
+          <small>中国台湾 · 剧集 · 2025 · 青春校园</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="暗黑者3" data-region="中国大陆" data-type="剧集" data-year="2025" data-category="都市生活" data-genre="悬疑/犯罪" data-tags="连环杀人,私刑正义,高智商,暗黑风">
+      <a href="detail/0585.html">
+        <span class="ranking-number">19</span>
+        <img src="135.jpg" alt="暗黑者3 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>暗黑者3</strong>
+          <small>中国大陆 · 剧集 · 2025 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="新七侠五义之屠龙案" data-region="中国大陆" data-type="电影" data-year="2025" data-category="家庭情感" data-genre="武侠,悬疑,古装" data-tags="展昭,白玉堂,探案,朝堂">
+      <a href="detail/0620.html">
+        <span class="ranking-number">20</span>
+        <img src="20.jpg" alt="新七侠五义之屠龙案 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>新七侠五义之屠龙案</strong>
+          <small>中国大陆 · 电影 · 2025 · 家庭情感</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="希波克拉底的弟子们" data-region="日本" data-type="剧集" data-year="2025" data-category="喜剧综艺" data-genre="剧情,医疗" data-tags="医院政治,理想主义,师徒传承">
+      <a href="detail/0663.html">
+        <span class="ranking-number">21</span>
+        <img src="63.jpg" alt="希波克拉底的弟子们 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>希波克拉底的弟子们</strong>
+          <small>日本 · 剧集 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="捷克的四季" data-region="捷克" data-type="电影" data-year="2025" data-category="全球精选" data-genre="纪录片,音乐" data-tags="自然,古典乐,视觉诗,交响乐">
+      <a href="detail/0757.html">
+        <span class="ranking-number">22</span>
+        <img src="7.jpg" alt="捷克的四季 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>捷克的四季</strong>
+          <small>捷克 · 电影 · 2025 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="我们的八十年代" data-region="中国大陆" data-type="电影" data-year="2025" data-category="家庭情感" data-genre="年代家庭" data-tags="怀旧,邻里,知青返城,温情">
+      <a href="detail/0818.html">
+        <span class="ranking-number">23</span>
+        <img src="68.jpg" alt="我们的八十年代 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>我们的八十年代</strong>
+          <small>中国大陆 · 电影 · 2025 · 家庭情感</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="关东大先生" data-region="中国大陆" data-type="剧集" data-year="2025" data-category="悬疑犯罪" data-genre="剧情,历史" data-tags="民国,东北,家族,商战">
+      <a href="detail/0854.html">
+        <span class="ranking-number">24</span>
+        <img src="104.jpg" alt="关东大先生 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>关东大先生</strong>
+          <small>中国大陆 · 剧集 · 2025 · 悬疑犯罪</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="港都" data-region="中国台湾" data-type="剧集" data-year="2025" data-category="喜剧综艺" data-genre="犯罪、黑帮" data-tags="基隆港,毒品走私,家族复仇,多线叙事">
+      <a href="detail/0893.html">
+        <span class="ranking-number">25</span>
+        <img src="143.jpg" alt="港都 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>港都</strong>
+          <small>中国台湾 · 剧集 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="雷射鹰" data-region="美国" data-type="电影" data-year="2025" data-category="热播剧场" data-genre="动作,科幻" data-tags="赛博朋克,机械鹰,反乌托邦,生化改造">
+      <a href="detail/0922.html">
+        <span class="ranking-number">26</span>
+        <img src="22.jpg" alt="雷射鹰 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>雷射鹰</strong>
+          <small>美国 · 电影 · 2025 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="未来时速" data-region="美国" data-type="电影" data-year="2025" data-category="青春校园" data-genre="科幻,惊悚" data-tags="速度感知,阴谋,人体改造,反乌托邦">
+      <a href="detail/1114.html">
+        <span class="ranking-number">27</span>
+        <img src="64.jpg" alt="未来时速 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>未来时速</strong>
+          <small>美国 · 电影 · 2025 · 青春校园</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="十二三十岁" data-region="韩国" data-type="剧集" data-year="2025" data-category="全球精选" data-genre="爱情,奇幻" data-tags="年龄穿越,职场,治愈,姐弟恋,漫画改编">
+      <a href="detail/1160.html">
+        <span class="ranking-number">28</span>
+        <img src="110.jpg" alt="十二三十岁 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>十二三十岁</strong>
+          <small>韩国 · 剧集 · 2025 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="火爆行动" data-region="中国香港" data-type="电影" data-year="2025" data-category="历史年代" data-genre="动作,犯罪" data-tags="卧底,黑帮,枪战,兄弟情">
+      <a href="detail/1371.html">
+        <span class="ranking-number">29</span>
+        <img src="21.jpg" alt="火爆行动 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>火爆行动</strong>
+          <small>中国香港 · 电影 · 2025 · 历史年代</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="大胆吓死贼" data-region="中国大陆" data-type="电影" data-year="2025" data-category="青春校园" data-genre="喜剧/悬疑/犯罪" data-tags="笨贼,密室,反转,东北喜剧,黑色幽默">
+      <a href="detail/1520.html">
+        <span class="ranking-number">30</span>
+        <img src="20.jpg" alt="大胆吓死贼 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>大胆吓死贼</strong>
+          <small>中国大陆 · 电影 · 2025 · 青春校园</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="再见人生" data-region="美国" data-type="剧集" data-year="2025" data-category="青春校园" data-genre="喜剧/奇幻/冒险" data-tags="死后世界,灵魂管理局,转世中介">
+      <a href="detail/1547.html">
+        <span class="ranking-number">31</span>
+        <img src="47.jpg" alt="再见人生 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>再见人生</strong>
+          <small>美国 · 剧集 · 2025 · 青春校园</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="回忆积木小屋" data-region="日本" data-type="动画" data-year="2025" data-category="都市生活" data-genre="剧情/科幻/温情" data-tags="末世,孤独,回忆,治愈,手绘">
+      <a href="detail/1677.html">
+        <span class="ranking-number">32</span>
+        <img src="27.jpg" alt="回忆积木小屋 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>回忆积木小屋</strong>
+          <small>日本 · 动画 · 2025 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="万万没想到之小兵过年" data-region="中国大陆" data-type="电影" data-year="2025" data-category="全球精选" data-genre="喜剧,古装" data-tags="搞笑,穿越,春节,网感,群像">
+      <a href="detail/1782.html">
+        <span class="ranking-number">33</span>
+        <img src="132.jpg" alt="万万没想到之小兵过年 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>万万没想到之小兵过年</strong>
+          <small>中国大陆 · 电影 · 2025 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="疯狂侏罗纪" data-region="美国" data-type="电影" data-year="2025" data-category="喜剧综艺" data-genre="喜剧,科幻,冒险" data-tags="恐龙,克隆,黑色幽默,失控,反转">
+      <a href="detail/1833.html">
+        <span class="ranking-number">34</span>
+        <img src="33.jpg" alt="疯狂侏罗纪 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>疯狂侏罗纪</strong>
+          <small>美国 · 电影 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="牵线木偶" data-region="韩国" data-type="剧集" data-year="2025" data-category="古装传奇" data-genre="惊悚/悬疑" data-tags="操纵记忆,人偶师,废弃剧院">
+      <a href="detail/1860.html">
+        <span class="ranking-number">35</span>
+        <img src="60.jpg" alt="牵线木偶 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>牵线木偶</strong>
+          <small>韩国 · 剧集 · 2025 · 古装传奇</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="禁忌房间" data-region="美国/加拿大" data-type="电影" data-year="2025" data-category="喜剧综艺" data-genre="恐怖/密室" data-tags="禁室培欲,记忆删除,密室逃脱">
+      <a href="detail/1902.html">
+        <span class="ranking-number">36</span>
+        <img src="102.jpg" alt="禁忌房间 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>禁忌房间</strong>
+          <small>美国/加拿大 · 电影 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="铁血大旗门国语" data-region="中国大陆" data-type="剧集" data-year="2025" data-category="历史年代" data-genre="武侠/古装" data-tags="门派,复仇,兄弟情,百集长篇,大漠">
+      <a href="detail/1996.html">
+        <span class="ranking-number">37</span>
+        <img src="46.jpg" alt="铁血大旗门国语 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>铁血大旗门国语</strong>
+          <small>中国大陆 · 剧集 · 2025 · 历史年代</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="驯龙宝典" data-region="美国" data-type="剧集" data-year="2024" data-category="全球精选" data-genre="喜剧/冒险/家庭" data-tags="龙,维京,搞笑,百科全书,寓教于乐">
+      <a href="detail/0234.html">
+        <span class="ranking-number">38</span>
+        <img src="84.jpg" alt="驯龙宝典 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>驯龙宝典</strong>
+          <small>美国 · 剧集 · 2024 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="狙击蝴蝶" data-region="中国大陆" data-type="剧集" data-year="2024" data-category="家庭情感" data-genre="爱情/悬疑/犯罪" data-tags="替身情人,高智商对决,极致反转">
+      <a href="detail/0241.html">
+        <span class="ranking-number">39</span>
+        <img src="91.jpg" alt="狙击蝴蝶 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>狙击蝴蝶</strong>
+          <small>中国大陆 · 剧集 · 2024 · 家庭情感</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="偶像选拔" data-region="韩国" data-type="剧集" data-year="2024" data-category="全球精选" data-genre="励志" data-tags="选秀,练习生,黑幕,梦想">
+      <a href="detail/0255.html">
+        <span class="ranking-number">40</span>
+        <img src="105.jpg" alt="偶像选拔 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>偶像选拔</strong>
+          <small>韩国 · 剧集 · 2024 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="万籁俱寂" data-region="日本" data-type="电影" data-year="2024" data-category="热播剧场" data-genre="心理剧情" data-tags="失聪,调音师,钢琴,谋杀,静音">
+      <a href="detail/0484.html">
+        <span class="ranking-number">41</span>
+        <img src="34.jpg" alt="万籁俱寂 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>万籁俱寂</strong>
+          <small>日本 · 电影 · 2024 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="监狱重生" data-region="日本" data-type="电影" data-year="2024" data-category="热播剧场" data-genre="剧情/犯罪" data-tags="复仇,律师,冤案">
+      <a href="detail/0554.html">
+        <span class="ranking-number">42</span>
+        <img src="104.jpg" alt="监狱重生 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>监狱重生</strong>
+          <small>日本 · 电影 · 2024 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="10+10" data-region="中国台湾" data-type="电影" data-year="2024" data-category="青春校园" data-genre="剧情,家庭,社会" data-tags="合集电影,代际,台湾社会,短片集,人文关怀">
+      <a href="detail/0555.html">
+        <span class="ranking-number">43</span>
+        <img src="105.jpg" alt="10+10 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>10+10</strong>
+          <small>中国台湾 · 电影 · 2024 · 青春校园</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="新兵第二季" data-region="美国" data-type="剧集" data-year="2024" data-category="热播剧场" data-genre="动作战争" data-tags="女子特种兵,中东战场,战友情,牺牲">
+      <a href="detail/0570.html">
+        <span class="ranking-number">44</span>
+        <img src="120.jpg" alt="新兵第二季 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>新兵第二季</strong>
+          <small>美国 · 剧集 · 2024 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="围城13天:阿拉莫战役" data-region="美国" data-type="电影" data-year="2024" data-category="全球精选" data-genre="历史,战争,剧情" data-tags="史诗,围城,以少胜多,真实改编">
+      <a href="detail/0960.html">
+        <span class="ranking-number">45</span>
+        <img src="60.jpg" alt="围城13天:阿拉莫战役 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>围城13天:阿拉莫战役</strong>
+          <small>美国 · 电影 · 2024 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="胎儿" data-region="西班牙" data-type="电影" data-year="2024" data-category="喜剧综艺" data-genre="科幻,伦理" data-tags="伦理困境,记忆移植,反转">
+      <a href="detail/0971.html">
+        <span class="ranking-number">46</span>
+        <img src="71.jpg" alt="胎儿 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>胎儿</strong>
+          <small>西班牙 · 电影 · 2024 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="炼气练了3000年" data-region="中国大陆" data-type="动画" data-year="2024" data-category="全球精选" data-genre="玄幻,搞笑,日常" data-tags="修仙,反差萌,长生,无敌流">
+      <a href="detail/1191.html">
+        <span class="ranking-number">47</span>
+        <img src="141.jpg" alt="炼气练了3000年 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>炼气练了3000年</strong>
+          <small>中国大陆 · 动画 · 2024 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="危险思想的自白" data-region="德国" data-type="电影" data-year="2024" data-category="热播剧场" data-genre="心理,惊悚" data-tags="分裂人格,审讯,间谍,谎言">
+      <a href="detail/1370.html">
+        <span class="ranking-number">48</span>
+        <img src="20.jpg" alt="危险思想的自白 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>危险思想的自白</strong>
+          <small>德国 · 电影 · 2024 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="人生大赛" data-region="韩国" data-type="剧集" data-year="2024" data-category="家庭情感" data-genre="剧情/竞技" data-tags="电竞,中年危机,热血逆袭">
+      <a href="detail/1452.html">
+        <span class="ranking-number">49</span>
+        <img src="102.jpg" alt="人生大赛 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>人生大赛</strong>
+          <small>韩国 · 剧集 · 2024 · 家庭情感</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="儿不可辱" data-region="印度" data-type="电影" data-year="2024" data-category="家庭情感" data-genre="动作/剧情/犯罪" data-tags="复仇,母亲,校园霸凌,社会,女性力量">
+      <a href="detail/1516.html">
+        <span class="ranking-number">50</span>
+        <img src="16.jpg" alt="儿不可辱 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>儿不可辱</strong>
+          <small>印度 · 电影 · 2024 · 家庭情感</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="甜蜜剧中剧" data-region="中国" data-type="剧集" data-year="2024" data-category="都市生活" data-genre="喜剧/爱情/剧情" data-tags="戏中戏,娱乐圈,反差萌,爆笑,甜宠">
+      <a href="detail/1672.html">
+        <span class="ranking-number">51</span>
+        <img src="22.jpg" alt="甜蜜剧中剧 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>甜蜜剧中剧</strong>
+          <small>中国 · 剧集 · 2024 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="猩疯血雨" data-region="中国香港" data-type="电影" data-year="2024" data-category="科幻冒险" data-genre="动作,恐怖,黑色喜剧" data-tags="变异,黑帮,暴力美学,病毒">
+      <a href="detail/1692.html">
+        <span class="ranking-number">52</span>
+        <img src="42.jpg" alt="猩疯血雨 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>猩疯血雨</strong>
+          <small>中国香港 · 电影 · 2024 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="乐与路" data-region="日本" data-type="剧集" data-year="2024" data-category="古装传奇" data-genre="剧情,音乐" data-tags="乐队,青春,成长">
+      <a href="detail/1743.html">
+        <span class="ranking-number">53</span>
+        <img src="93.jpg" alt="乐与路 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>乐与路</strong>
+          <small>日本 · 剧集 · 2024 · 古装传奇</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="犯罪心理第七季" data-region="美国" data-type="剧集" data-year="2024" data-category="热播剧场" data-genre="悬疑,犯罪,心理" data-tags="侧写,连环杀手,团队危机,黑暗">
+      <a href="detail/1823.html">
+        <span class="ranking-number">54</span>
+        <img src="23.jpg" alt="犯罪心理第七季 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>犯罪心理第七季</strong>
+          <small>美国 · 剧集 · 2024 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="妙探狗福星" data-region="美国" data-type="电影" data-year="2024" data-category="悬疑犯罪" data-genre="喜剧,家庭" data-tags="动物拟人,探案,合家欢,萌宠">
+      <a href="detail/1883.html">
+        <span class="ranking-number">55</span>
+        <img src="83.jpg" alt="妙探狗福星 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>妙探狗福星</strong>
+          <small>美国 · 电影 · 2024 · 悬疑犯罪</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="绿色婚礼" data-region="泰国" data-type="电影" data-year="2024" data-category="全球精选" data-genre="爱情/同性/剧情" data-tags="泰式小清新,环保主题,同性婚礼,乡村治愈,田园">
+      <a href="detail/1966.html">
+        <span class="ranking-number">56</span>
+        <img src="16.jpg" alt="绿色婚礼 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>绿色婚礼</strong>
+          <small>泰国 · 电影 · 2024 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="云雾之间" data-region="智利/阿根廷" data-type="电影" data-year="2023" data-category="历史年代" data-genre="悬疑/剧情" data-tags="安第斯山脉,失踪,记者,云林">
+      <a href="detail/0303.html">
+        <span class="ranking-number">57</span>
+        <img src="3.jpg" alt="云雾之间 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>云雾之间</strong>
+          <small>智利/阿根廷 · 电影 · 2023 · 历史年代</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="恋爱与友情之间2023" data-region="日本" data-type="剧集" data-year="2023" data-category="全球精选" data-genre="爱情/剧情" data-tags="成年人,暧昧,抉择,现实向">
+      <a href="detail/0652.html">
+        <span class="ranking-number">58</span>
+        <img src="52.jpg" alt="恋爱与友情之间2023 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>恋爱与友情之间2023</strong>
+          <small>日本 · 剧集 · 2023 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="未来的回忆" data-region="日本" data-type="电影" data-year="2023" data-category="古装传奇" data-genre="科幻,剧情" data-tags="时间旅行,记忆删除,情感纠葛">
+      <a href="detail/1942.html">
+        <span class="ranking-number">59</span>
+        <img src="142.jpg" alt="未来的回忆 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>未来的回忆</strong>
+          <small>日本 · 电影 · 2023 · 古装传奇</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="家庭录像" data-region="美国" data-type="电影" data-year="2022" data-category="热播剧场" data-genre="恐怖/伪纪录片" data-tags="录像带,邪教,家庭秘密">
+      <a href="detail/1930.html">
+        <span class="ranking-number">60</span>
+        <img src="130.jpg" alt="家庭录像 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>家庭录像</strong>
+          <small>美国 · 电影 · 2022 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="爱你入胃" data-region="美国" data-type="电影" data-year="2022" data-category="热播剧场" data-genre="喜剧/恐怖/爱情" data-tags="寄生虫,黑色幽默,身体恐怖,奇葩设定">
+      <a href="detail/1947.html">
+        <span class="ranking-number">61</span>
+        <img src="147.jpg" alt="爱你入胃 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>爱你入胃</strong>
+          <small>美国 · 电影 · 2022 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.4</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="寻根问祖" data-region="中国大陆" data-type="电影" data-year="2027" data-category="悬疑犯罪" data-genre="剧情/家庭/历史" data-tags="家族史,移民,代际冲突,客家文化,纪录片风格">
+      <a href="detail/1222.html">
+        <span class="ranking-number">62</span>
+        <img src="22.jpg" alt="寻根问祖 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>寻根问祖</strong>
+          <small>中国大陆 · 电影 · 2027 · 悬疑犯罪</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="冬景" data-region="中国大陆" data-type="电影" data-year="2027" data-category="热播剧场" data-genre="剧情,家庭,悬疑" data-tags="东北,小镇,失踪,父女">
+      <a href="detail/1850.html">
+        <span class="ranking-number">63</span>
+        <img src="50.jpg" alt="冬景 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>冬景</strong>
+          <small>中国大陆 · 电影 · 2027 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="尾随" data-region="中国" data-type="电影" data-year="2027" data-category="热播剧场" data-genre="惊悚/犯罪" data-tags="跟踪,反杀,都市,女性,反转">
+      <a href="detail/1961.html">
+        <span class="ranking-number">64</span>
+        <img src="11.jpg" alt="尾随 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>尾随</strong>
+          <small>中国 · 电影 · 2027 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="暗水深处" data-region="俄罗斯" data-type="电影" data-year="2026" data-category="都市生活" data-genre="恐怖/科幻/冒险" data-tags="水下洞穴,未知生物,克苏鲁风格,科学探险">
+      <a href="detail/0028.html">
+        <span class="ranking-number">65</span>
+        <img src="28.jpg" alt="暗水深处 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>暗水深处</strong>
+          <small>俄罗斯 · 电影 · 2026 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="乌龙保镖" data-region="美国" data-type="电影" data-year="2026" data-category="悬疑犯罪" data-genre="喜剧、动作" data-tags="废柴逆袭,冒牌保镖,黑帮闹剧,兄弟情">
+      <a href="detail/0145.html">
+        <span class="ranking-number">66</span>
+        <img src="145.jpg" alt="乌龙保镖 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>乌龙保镖</strong>
+          <small>美国 · 电影 · 2026 · 悬疑犯罪</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="变鬼之魂飘东京" data-region="日本" data-type="电影" data-year="2026" data-category="历史年代" data-genre="恐怖/惊悚" data-tags="都市传说,地铁,附身">
+      <a href="detail/0580.html">
+        <span class="ranking-number">67</span>
+        <img src="130.jpg" alt="变鬼之魂飘东京 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>变鬼之魂飘东京</strong>
+          <small>日本 · 电影 · 2026 · 历史年代</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="接触" data-region="美国" data-type="电影" data-year="2026" data-category="历史年代" data-genre="科幻,惊悚" data-tags="外星人,深空,心理恐惧,隔离">
+      <a href="detail/1177.html">
+        <span class="ranking-number">68</span>
+        <img src="127.jpg" alt="接触 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>接触</strong>
+          <small>美国 · 电影 · 2026 · 历史年代</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="惊爆时刻" data-region="中国大陆" data-type="电影" data-year="2025" data-category="古装传奇" data-genre="悬疑/犯罪" data-tags="直播,诈骗,反杀">
+      <a href="detail/0108.html">
+        <span class="ranking-number">69</span>
+        <img src="108.jpg" alt="惊爆时刻 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>惊爆时刻</strong>
+          <small>中国大陆 · 电影 · 2025 · 古装传奇</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="钱财勿动" data-region="法国" data-type="电影" data-year="2025" data-category="古装传奇" data-genre="犯罪,剧情" data-tags="抢匪,道德,帮派">
+      <a href="detail/0124.html">
+        <span class="ranking-number">70</span>
+        <img src="124.jpg" alt="钱财勿动 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>钱财勿动</strong>
+          <small>法国 · 电影 · 2025 · 古装传奇</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="对不起,我爱你,谢谢你" data-region="韩国" data-type="电影" data-year="2025" data-category="热播剧场" data-genre="剧情/家庭" data-tags="临终告白,三封遗书,催泪炸弹">
+      <a href="detail/0272.html">
+        <span class="ranking-number">71</span>
+        <img src="122.jpg" alt="对不起,我爱你,谢谢你 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>对不起,我爱你,谢谢你</strong>
+          <small>韩国 · 电影 · 2025 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="我在等你" data-region="中国台湾" data-type="电影" data-year="2025" data-category="热播剧场" data-genre="爱情/奇幻" data-tags="时间循环,书店,绝症,手写信,纯爱">
+      <a href="detail/0399.html">
+        <span class="ranking-number">72</span>
+        <img src="99.jpg" alt="我在等你 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>我在等你</strong>
+          <small>中国台湾 · 电影 · 2025 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="围城内外" data-region="中国大陆" data-type="剧集" data-year="2025" data-category="全球精选" data-genre="剧情/家庭" data-tags="婚姻,职场女性,代际冲突,现实主义">
+      <a href="detail/0488.html">
+        <span class="ranking-number">73</span>
+        <img src="38.jpg" alt="围城内外 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>围城内外</strong>
+          <small>中国大陆 · 剧集 · 2025 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="太阳总在左边" data-region="中国大陆" data-type="电影" data-year="2025" data-category="科幻冒险" data-genre="公路/文艺" data-tags="西藏,朝圣,丧子,救赎,风景长镜头">
+      <a href="detail/0499.html">
+        <span class="ranking-number">74</span>
+        <img src="49.jpg" alt="太阳总在左边 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>太阳总在左边</strong>
+          <small>中国大陆 · 电影 · 2025 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="茱莉" data-region="法国" data-type="电影" data-year="2025" data-category="都市生活" data-genre="剧情/传记" data-tags="女性成长,钢琴家,一战背景,自我觉醒,古典音乐">
+      <a href="detail/0583.html">
+        <span class="ranking-number">75</span>
+        <img src="133.jpg" alt="茱莉 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>茱莉</strong>
+          <small>法国 · 电影 · 2025 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="风流剑侠复仇记" data-region="中国香港" data-type="电影" data-year="2025" data-category="都市生活" data-genre="武侠/动作/悬疑" data-tags="江湖奇案,剑术高手,易容术,采花大盗陷阱">
+      <a href="detail/0677.html">
+        <span class="ranking-number">76</span>
+        <img src="77.jpg" alt="风流剑侠复仇记 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>风流剑侠复仇记</strong>
+          <small>中国香港 · 电影 · 2025 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="樱花革命:花开时的少女们" data-region="日本" data-type="剧集" data-year="2025" data-category="科幻冒险" data-genre="历史,青春,战争" data-tags="二战末期,女子学生队,反战思考">
+      <a href="detail/0717.html">
+        <span class="ranking-number">77</span>
+        <img src="117.jpg" alt="樱花革命:花开时的少女们 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>樱花革命:花开时的少女们</strong>
+          <small>日本 · 剧集 · 2025 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="雷火任务" data-region="中国大陆" data-type="电影" data-year="2025" data-category="喜剧综艺" data-genre="动作/科幻" data-tags="特工,近未来,人工智能,战争,高燃">
+      <a href="detail/0824.html">
+        <span class="ranking-number">78</span>
+        <img src="74.jpg" alt="雷火任务 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>雷火任务</strong>
+          <small>中国大陆 · 电影 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="煤油灯" data-region="印度" data-type="电影" data-year="2025" data-category="全球精选" data-genre="悬疑,惊悚,剧情" data-tags="心理操控,精神控制,女性觉醒,复仇">
+      <a href="detail/0930.html">
+        <span class="ranking-number">79</span>
+        <img src="30.jpg" alt="煤油灯 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>煤油灯</strong>
+          <small>印度 · 电影 · 2025 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="梦女孩" data-region="韩国" data-type="电影" data-year="2025" data-category="热播剧场" data-genre="剧情/奇幻/青春" data-tags="梦境共享,校园,友情">
+      <a href="detail/0937.html">
+        <span class="ranking-number">80</span>
+        <img src="37.jpg" alt="梦女孩 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>梦女孩</strong>
+          <small>韩国 · 电影 · 2025 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="回到未来3国语" data-region="美国" data-type="电影" data-year="2025" data-category="科幻冒险" data-genre="科幻喜剧" data-tags="穿越,西部,国语配音,时光机">
+      <a href="detail/1103.html">
+        <span class="ranking-number">81</span>
+        <img src="53.jpg" alt="回到未来3国语 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>回到未来3国语</strong>
+          <small>美国 · 电影 · 2025 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="玫瑰的棋局" data-region="中国大陆" data-type="剧集" data-year="2025" data-category="都市生活" data-genre="悬疑/商战" data-tags="豪门,复仇,烧脑">
+      <a href="detail/1119.html">
+        <span class="ranking-number">82</span>
+        <img src="69.jpg" alt="玫瑰的棋局 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>玫瑰的棋局</strong>
+          <small>中国大陆 · 剧集 · 2025 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="动态漫画·全球诡异时代" data-region="中国" data-type="剧集" data-year="2025" data-category="古装传奇" data-genre="动画/悬疑" data-tags="动态漫画,诡异,克苏鲁,都市传说">
+      <a href="detail/1216.html">
+        <span class="ranking-number">83</span>
+        <img src="16.jpg" alt="动态漫画·全球诡异时代 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>动态漫画·全球诡异时代</strong>
+          <small>中国 · 剧集 · 2025 · 古装传奇</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="世界大洪水" data-region="美国" data-type="电影" data-year="2025" data-category="都市生活" data-genre="灾难,动作" data-tags="末日,洪水,方舟,气候">
+      <a href="detail/1223.html">
+        <span class="ranking-number">84</span>
+        <img src="23.jpg" alt="世界大洪水 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>世界大洪水</strong>
+          <small>美国 · 电影 · 2025 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="哪吒争夺聚宝盆粤语" data-region="中国香港" data-type="电影" data-year="2025" data-category="喜剧综艺" data-genre="动画,奇幻,喜剧" data-tags="粤语原声,神话改编,夺宝,合家欢,无厘头">
+      <a href="detail/1299.html">
+        <span class="ranking-number">85</span>
+        <img src="99.jpg" alt="哪吒争夺聚宝盆粤语 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>哪吒争夺聚宝盆粤语</strong>
+          <small>中国香港 · 电影 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="2025年93大阅兵" data-region="中国大陆" data-type="电影" data-year="2025" data-category="热播剧场" data-genre="纪录,剧情" data-tags="阅兵,军人,荣誉,群像">
+      <a href="detail/1312.html">
+        <span class="ranking-number">86</span>
+        <img src="112.jpg" alt="2025年93大阅兵 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>2025年93大阅兵</strong>
+          <small>中国大陆 · 电影 · 2025 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="冰湖重生" data-region="中国大陆" data-type="剧集" data-year="2025" data-category="科幻冒险" data-genre="古装/仙侠" data-tags="重生,复仇,冰湖,师徒">
+      <a href="detail/1453.html">
+        <span class="ranking-number">87</span>
+        <img src="103.jpg" alt="冰湖重生 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>冰湖重生</strong>
+          <small>中国大陆 · 剧集 · 2025 · 科幻冒险</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="特工妈咪" data-region="美国/意大利" data-type="电影" data-year="2025" data-category="历史年代" data-genre="动作、喜剧、家庭" data-tags="特工,退休,母亲,校园,反差萌">
+      <a href="detail/1496.html">
+        <span class="ranking-number">88</span>
+        <img src="146.jpg" alt="特工妈咪 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>特工妈咪</strong>
+          <small>美国/意大利 · 电影 · 2025 · 历史年代</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="云裳艳曲" data-region="中国大陆" data-type="剧集" data-year="2025" data-category="悬疑犯罪" data-genre="民国,悬疑" data-tags="旗袍,老上海,凶杀案,裁缝铺">
+      <a href="detail/1529.html">
+        <span class="ranking-number">89</span>
+        <img src="29.jpg" alt="云裳艳曲 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>云裳艳曲</strong>
+          <small>中国大陆 · 剧集 · 2025 · 悬疑犯罪</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="狄仁杰之深海龙宫" data-region="中国大陆" data-type="电影" data-year="2025" data-category="家庭情感" data-genre="古装/动作/奇幻" data-tags="狄仁杰,水下,探案,异兽">
+      <a href="detail/1601.html">
+        <span class="ranking-number">90</span>
+        <img src="101.jpg" alt="狄仁杰之深海龙宫 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>狄仁杰之深海龙宫</strong>
+          <small>中国大陆 · 电影 · 2025 · 家庭情感</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="我家那闺女2025" data-region="中国大陆" data-type="综艺" data-year="2025" data-category="喜剧综艺" data-genre="真人秀,家庭" data-tags="观察类,女性成长,AI男友">
+      <a href="detail/1704.html">
+        <span class="ranking-number">91</span>
+        <img src="54.jpg" alt="我家那闺女2025 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>我家那闺女2025</strong>
+          <small>中国大陆 · 综艺 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="谍网寻凶" data-region="英国" data-type="剧集" data-year="2025" data-category="喜剧综艺" data-genre="悬疑/犯罪/谍战" data-tags="军情五处,陈年悬案,双面间谍,伦敦,步步惊心">
+      <a href="detail/1711.html">
+        <span class="ranking-number">92</span>
+        <img src="61.jpg" alt="谍网寻凶 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>谍网寻凶</strong>
+          <small>英国 · 剧集 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="世界由3构成" data-region="日本" data-type="剧集" data-year="2025" data-category="喜剧综艺" data-genre="科幻,悬疑,推理" data-tags="数学推理,全球危机,高智商对决">
+      <a href="detail/1945.html">
+        <span class="ranking-number">93</span>
+        <img src="145.jpg" alt="世界由3构成 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>世界由3构成</strong>
+          <small>日本 · 剧集 · 2025 · 喜剧综艺</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="恐惧开始" data-region="美国/加拿大" data-type="电影" data-year="2025" data-category="悬疑犯罪" data-genre="恐怖,悬疑,科幻" data-tags="记忆植入,恐惧具象化,密室逃生,高概念恐怖">
+      <a href="detail/1985.html">
+        <span class="ranking-number">94</span>
+        <img src="35.jpg" alt="恐惧开始 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>恐惧开始</strong>
+          <small>美国/加拿大 · 电影 · 2025 · 悬疑犯罪</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="迪兹先生" data-region="美国" data-type="电影" data-year="2024" data-category="全球精选" data-genre="喜剧/奇幻" data-tags="小镇青年,巨额遗产,黑色幽默,身份错位">
+      <a href="detail/0170.html">
+        <span class="ranking-number">95</span>
+        <img src="20.jpg" alt="迪兹先生 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>迪兹先生</strong>
+          <small>美国 · 电影 · 2024 · 全球精选</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="禁婚令" data-region="韩国" data-type="剧集" data-year="2024" data-category="都市生活" data-genre="古装,爱情,喜剧" data-tags="朝鲜王朝,假婚约,宫斗,欢喜冤家,契约恋爱">
+      <a href="detail/0219.html">
+        <span class="ranking-number">96</span>
+        <img src="69.jpg" alt="禁婚令 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>禁婚令</strong>
+          <small>韩国 · 剧集 · 2024 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="毁灭的种子" data-region="德国" data-type="电影" data-year="2024" data-category="热播剧场" data-genre="历史,战争" data-tags="二战,纳粹起源,政治寓言,纪录片风格">
+      <a href="detail/0252.html">
+        <span class="ranking-number">97</span>
+        <img src="102.jpg" alt="毁灭的种子 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>毁灭的种子</strong>
+          <small>德国 · 电影 · 2024 · 热播剧场</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="猪标一族" data-region="中国香港" data-type="电影" data-year="2024" data-category="都市生活" data-genre="喜剧、动作、警匪" data-tags="卧底,猪肉佬,枪战">
+      <a href="detail/0274.html">
+        <span class="ranking-number">98</span>
+        <img src="124.jpg" alt="猪标一族 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>猪标一族</strong>
+          <small>中国香港 · 电影 · 2024 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="猛虎突击队" data-region="中国大陆" data-type="剧集" data-year="2024" data-category="都市生活" data-genre="动作,战争" data-tags="特种部队,反恐,兄弟情">
+      <a href="detail/0278.html">
+        <span class="ranking-number">99</span>
+        <img src="128.jpg" alt="猛虎突击队 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>猛虎突击队</strong>
+          <small>中国大陆 · 剧集 · 2024 · 都市生活</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+
+    <article class="ranking-row" data-movie-card data-title="鼠辈觉醒" data-region="法国" data-type="电影" data-year="2024" data-category="悬疑犯罪" data-genre="科幻/惊悚" data-tags="动物,进化,实验,末世">
+      <a href="detail/0305.html">
+        <span class="ranking-number">100</span>
+        <img src="5.jpg" alt="鼠辈觉醒 榜单封面" loading="lazy">
+        <span class="ranking-info">
+          <strong>鼠辈觉醒</strong>
+          <small>法国 · 电影 · 2024 · 悬疑犯罪</small>
+        </span>
+        <span class="ranking-score">9.3</span>
+      </a>
+    </article>
+  </section>
+  <p class="no-results" data-no-results hidden>没有找到匹配的榜单影片，请更换筛选条件。</p>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">剧</span>
+        <span>高清剧集大全</span>
+      </a>
+      <p>国产电视剧大全整理多题材国产剧内容，覆盖都市、家庭、历史、悬疑等常见类别。</p>
+    </div>
+    <div>
+      <h2>浏览入口</h2>
+      <ul>
+        <li><a href="all.html">全部影片</a></li>
+        <li><a href="categories.html">分类总览</a></li>
+        <li><a href="rankings.html">排行榜</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>热门分类</h2>
+      <ul>
+          <li><a href="category/hot-drama.html">热播剧场</a></li>
+          <li><a href="category/urban-life.html">都市生活</a></li>
+          <li><a href="category/suspense-crime.html">悬疑犯罪</a></li>
+          <li><a href="category/family-romance.html">家庭情感</a></li>
+          <li><a href="category/history-period.html">历史年代</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>站点说明</h2>
+      <ul>
+        <li><a href="about.html">关于本站</a></li>
+        <li><a href="support.html">播放帮助</a></li>
+        <li><a href="copyright.html">版权声明</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 高清剧集大全 · 在线剧集片库</p>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
